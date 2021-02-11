@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {}
+
+h1 {
+    height: fit-content;
+}
+
+h1.half-text {
+    background: linear-gradient(0deg, #FFC0CB 30%, #FFFFFF 70%);
+}

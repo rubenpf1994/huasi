@@ -1,13 +1,14 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="utf-8">
   <title>Huasi</title>
-  <link rel="icon" type="image/jpg" href="assets/images/icon.jpg">
+  <link rel="icon" type="image/x-icon" href="/assets/images/icon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- CSS only -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
 <body>
@@ -42,7 +43,7 @@
                 </li>
                 </ul>
                 <div>
-                <a href="signin.php" class="sign-btn">
+                <a href="login.php" class="sign-btn">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" class="bi bi-person-fill" viewBox="0 0 16 16">
                         <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
                     </svg>
