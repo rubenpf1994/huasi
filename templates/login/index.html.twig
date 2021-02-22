@@ -1,0 +1,14 @@
+{% extends "base.html.twig" %}
+{% block body %}
+    <div class="container">
+    <h1>Login</h1>
+    <form id="idFormLogin" action="controller/loginController/" method="POST">
+         <label for="email">Email</label>
+         <input type="email" name="email">
+         <label for="password">Password</label>
+         <input type="password" name="password">
+         <input type="submit" name="loginSubmit">
+    </form>
+</div>
+{% endblock %}
+

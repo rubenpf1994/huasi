@@ -1,6 +1,6 @@
  
 <?php
-class database{
+class Database{
 
     private $host;
     private $db;
@@ -22,6 +22,7 @@ class database{
                 PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
                 PDO::ATTR_EMULATE_PREPARES => false
             ];
+            var_dump('Estoy en base de datos');
             $pdo = new PDO('mysql:host='.$this->host.';dbname='.$this->db, $this->user, $this->password, $options);
             error_log('Conexión a base de datos exitosa');
             return $pdo;

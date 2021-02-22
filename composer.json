@@ -1,0 +1,13 @@
+{
+    "name": "ruben/huasi",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ruben",
+            "email": "rubenupc.rp@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.3"
+    }
+}

@@ -9,7 +9,8 @@ class Homepage extends Controller{
     }
 
     function render($route){
-        $this->view->render($route);
+        $title = "Welcome to Huasi";
+        $this->view->render($route, ['title'=>$title]);
     }
 
 

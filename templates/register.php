@@ -1,11 +1,11 @@
 
 
 
-<?php include('templates/header.php');?>
+<?php include('header.php');?>
 <div id="page-container">
    <div id="content-wrap">
         <p>Welcome!</p>
-        <form id="idFormRegister" method="POST">
+        <form id="idFormRegister" action="register/newUser" method="POST">
          <label for="name">Name</label>
          <input type="text" name="name">
          <label for="email">Email</label>
@@ -16,4 +16,4 @@
         </form>
    </div>
 </div>
-<?php include('templates/footer.php');?>
+<?php include('footer.php');?>
